@@ -22,7 +22,7 @@ Console.WriteLine();
 //Показать двумерный массив размером m×n заполненный целыми числами
 Console.WriteLine("How much rows in array?");
 int rows = int.Parse(Console.ReadLine());
-Console.WriteLine("How much rows in columns?");
+Console.WriteLine("How much columns in array?");
 int columns = int.Parse(Console.ReadLine());
 int[,] array = new int[rows, columns];
 FillArray(array);

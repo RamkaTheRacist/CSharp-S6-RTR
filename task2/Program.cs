@@ -36,7 +36,7 @@ Console.WriteLine();
 //В двумерном массиве n×k заменить четные элементы на противоположные
 Console.WriteLine("How much rows in array?");
 int rows = int.Parse(Console.ReadLine());
-Console.WriteLine("How much rows in columns?");
+Console.WriteLine("How much columns in array?");
 int columns = int.Parse(Console.ReadLine());
 double[,] array = new double[rows, columns];
 FillArray(array);
