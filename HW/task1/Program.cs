@@ -20,7 +20,6 @@ for(int i = 0; i < any.GetLength(0); i++)  // 0 = 3
 Console.WriteLine();
 }
 }
-//Показать двумерный массив размером m×n заполненный целыми числами
 Console.WriteLine("How much rows in array?");
 int rows = int.Parse(Console.ReadLine());
 Console.WriteLine("How much columns in array?");
